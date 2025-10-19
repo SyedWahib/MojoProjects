@@ -1,0 +1,6 @@
+
+Install Mojo: 
+  uv pip install mojo \ --extra-index-url https://modular.gateway.scarf.sh/simple/
+
+Update Local mojo package if new version is available
+  uv sync --upgrade-package mojo
